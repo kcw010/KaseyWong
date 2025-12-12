@@ -1,0 +1,137 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color:lightyellow;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  margin: 30px;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  font-weight: 500;
+  color: #3cc6d0;
+  font-family: "Honk", system-ui;
+}
+
+h2 {
+  margin: 30px;
+  font-size: 2rem;
+  font-weight: 300;
+  color:coral;
+  font-family: "Orbitron", sans-serif;
+  
+}
+
+h3{
+  margin: 30 px;
+  font-size: 1.5 rem;
+  font-weight: 50;
+  color: fuchsia;
+  font-family: "Bruno Ace SC", sans-serif;
+}
+
+p {
+  color:darkorange;
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 80%;
+  background-color:fuchsia;
+  border-radius: 30%;
+  mix-blend-mode: hard-light;
+}
+
+
+.myBtn {
+  margin: 30px;
+  background-color: yellow;
+  font-family: "Bruno Ace SC", sans-serif;
+  border-radius: 8px;
+  border-color:white;
+}
+
+footer {
+  margin-top: 5%;
+  color:deeppink;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+}
+
+.copyright {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+h4 {
+  color:deeppink;
+  font-family: "Bruno Ace SC", sans-serif;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: deeppink;
+}
+
+.outcome {
+  font-weight: bold;
+  font-size: 4rem;
+  color: red;
+}
+
+#cta{
+  background-color:lemonchiffon;
+  color: orange;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.download-button {
+    color:hotpink; 
+    font-family: "Orbitron", sans-serif;
+}
+
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.bruno-ace-sc-regular {
+  font-family: "Bruno Ace SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

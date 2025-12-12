@@ -1,0 +1,129 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:white;
+    margin: 0;
+}
+
+#title {
+    background-color:lightskyblue;
+}
+
+.container {
+    background-color:azure;
+    padding: 60px 80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    max-width: 700px;
+    min-height: 350px;
+    margin: 60px auto;
+    text-align: center;
+    margin-top: 60px;
+}
+
+h1{
+    font-family: "Birthstone Bounce", cursive;
+    font-size: 2rem;
+    line-height: 1.75;
+    font-weight:bold;
+    margin-bottom: 15px;
+    color:skyblue;
+}
+
+h2{
+    font-family: "Birthstone", cursive;
+    color: black;
+    font-size: 1.5;
+    font-weight:lighter;
+    text-align: center;
+}
+
+em{
+  font-family: "Birthstone Bounce", cursive;
+  color: dodgerblue;
+  font-size: 40px;
+}
+
+.navbar-brand{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: 0;
+    background-color: lightskyblue;
+}
+
+.navbar {
+    background-color: dark lightskyblue;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color:deepskyblue;
+}
+
+button {
+    padding: 10px 20px;
+    background-color:lightblue;
+    color:black;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Birthstone Bounce", cursive;
+}
+
+button:hover {
+    background-color:lightskyblue;
+}
+
+#seatingarrangements{
+    text-align: center;
+    background-color:lightblue;
+    margin-top: 80px;
+}
+
+.seating-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    color: lightskyblue;
+}
+
+.monsieur-la-doulaise-regular {
+  font-family: "Monsieur La Doulaise", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.birthstone-bounce-regular {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.birthstone-bounce-medium {
+  font-family: "Birthstone Bounce", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
