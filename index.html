@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <!--Required meta tags-->
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--Bootstrap CSS-->
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+      <!--Google Fonts-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+      <!--Font Awesome-->
+      <script src="https://kit.fontawesome.com/95af1c9436.js" crossorigin="anonymous"></script>
+      <script type='text/javascript' scr='https://inst-fs-iad-prod.inscloudgate.net/HtvX9xk8dCWmkkND73inZoEeWPPKEhZ37_Io-jaRUfm8VKh5RCQKjnOtrW6UKMWMqd8a8Emd0bo4eFbOGGFay4lEJ2lfaikjwr8Xg92GWOkcv7cM-9R7n2vcVK_KrQMhOdyhcpUKl3Zgw9zyWg10mCsiFZZH4QSPpL6V28lIcI='></script>
+
+      <!--CSS Stylesheet-->
+      <link rel="stylesheet" href="styles.css">
+      <title>Kasey Wong Portfolio</title>
+  </head>
+  <body>
+      <section id="title">
+        <div class="container-fluid">
+          <nav id="regular-nav">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a href="#" class="navbar-brand">Kasey Wong</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                  aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="container-fluid">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                      <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#experience" class="nav-link">Experience</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#skills" class="nav-link">Skills</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#work" class="nav-link">Work</a>
+                    </li>
+                    <li class="navbar-item"><a href="#contact" class="nav-link">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </nav>
+
+          <nav id="hamburger-nav">
+            <div class="navbar-brand">Kasey Wong</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <div class="menu-links">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="navbar-item">
+                      <a href="#about" onclick="toggleMenu()" class="nav-link">About Me</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#experience" onclick="toggleMenu()" class="nav-link">Experience</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#skills" onclick="toggleMenu()" class="nav-link">Skills</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#work" onclick="toggleMenu()" class="nav-link">Work</a>
+                    </li>
+                    <li class="navbar-item">
+                      <a href="#contact" onclick="toggleMenu()" class="nav-link">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+            </div>
+          </nav>
+      </section>
+
+      <section id="pipette">
+        <div class="pipette__pic-container">
+          <img src="images/pipette.png" alt="Pipette">
+        </div>
+        <div class ="pipette__text">
+          <p class="pipette__text_p1"> Hello, I'm</p>
+          <h1 class = "title">Kasey Wong</h1>
+          <p class ="pipette__text_p2">First Year General Biology Major at UCSD</p>
+          <div class="btn-container">
+            <button class ="btn btn-color-2" onclick="window.open('./images/resume.pdf')">Download Resume</button>
+            <button class ="btn btn-color-2" onclick="location.href='#contact'">Contact Me</button>
+          </div>
+          <div id="socials-container">
+            <i class="fa-brands fa-linkedin fa-2x" onclick="location.href='https://linkedin.com/'"></i>
+            <i class="fa-brands fa-facebook fa-2x" onclick="location.href='https://facebook.com/'"></i>
+            <i class="fa-brands fa-github fa-2x" onclick="location.href='https://github.com/'"></i>
+            <i class="fa-regular fa-envelope fa-2x" onclick="location.href='https://gmail.com/'"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <p class="section__text_p1">Hi, I'm Kasey!</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img class="pfp" src="images/about.png">
+          </div>
+          <div class="about-details-container">
+            <div class="details-container">
+              <i class="fa-solid fa-user fa-2x icon"></i>
+              <h3>Experience</h3>
+              <p>
+                <ul>
+                  <li>Community Service Volunteering</li>
+                  <li>American Red Cross READEYteens Program</li>
+                  <li>Biology Research Project</li>
+                </ul>
+              </p>
+            </div>
+            <div class="details-container">
+              <i class="fa-solid fa-face-smile fa-2x icon"></i>
+              <h3>Involvement/Awards</h3>
+              <p>
+                <ul>
+                  <li>Class Council Secretary</li>
+                  <li>Associated Student Body</li>
+                  <li>Key Club International Volunteer</li>
+                  <li>Bronze & Gold Presidential Volunteer Service Awards</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              <ul>
+                <li class="info">I'm a Biological Sciences undergraduate student majoring in General Biology at the University of California, San Diego. </li>
+                <li class="info">I have experience with lab techniques such as Micropipetting, PCR, Gel Electrophesis, DNA Extraction, Ecoplate Analysis, and Data Analysis. </li>
+                <li class="info">I'm interested in getting into more hands-on research during my undergrad and pursuing the Pre-PA track at UCSD.</li>
+                <li>Some of my hobbies include: crocheting, learning to cook new recipes, trying out new cafes, and coding!</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-down fa-3x icon arrow" onclick="location.href='#experience'"></i>
+      </section>
+
+      <section id="experience">
+        <p class ="section__text_p1">Learn More About My</p> 
+        <h1 class="title">Experiences</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Health Experience</h2>
+              <div class="article-container">
+                <article>
+                  <i class="fa-solid fa-heart icon fa-2x"></i>
+                  <div>
+                    <h3>American Red Cross READYteens Program</h3>
+                    <ul>
+                      <li><p>Became certified in Pyschological First Aid, Stop the Bleed, FEMA ICS-100, First Aid, & CPR</p></li>
+                      <li><p>Trained in ICS, emergency communication, triage, medical response, and shelter operations</p></li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Labratory Experience</h2>
+              <div class="article-container">
+                <article>
+                  <i class="fa-solid fa-heart icon fa-2x"></i>
+                  <div>
+                    <h3>BILD 4 Course</h3>
+                    <ul>
+                      <li><p>Perfomed labratory techniques such as micropipetting, PCR, using an agar gel plate, gel electrophoresis, DNA extraction, and data analysis</p></li>
+                      <li><p>Practiced sterile technqiues, smaple preperation, and proper handeling of waste and samples</p></li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Volunteer Experience</h2>
+              <div class="article-container">
+                <article>
+                  <i class="fa-solid fa-heart icon fa-2x"></i>
+                  <div>
+                    <h3>Key Club International</h3>
+                    <ul>
+                      <li><p>Managed and hosted food drives, community cleanups, toy drives, community restoration projects, and care kits for the local community</p></li>
+                      <li><p>Organized hygiene donation events for people facing homelessness, veterans, and local families</p></li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div class="details-containers">
+              <h2 class="experience-sub-title">Leadership Experience</h2>
+              <div class="article-container">
+                <article>
+                  <i class="fa-solid fa-heart icon fa-2x"></i>
+                  <div>
+                    <h3>Student Council Secretary</h3>
+                      <li><p>Worked with Excel to manage participation spreadsheets and coordinate school-wide events with other officers</p></li>
+                    </ul>
+                    <h3>Associated Student Body</h3>
+                    <ul>
+                      <li><p>Communicated with students and addressed their concerns</p></li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-down fa-3x icon2 arrow" onclick="location.href='#skills'"></i>
+      </section>
+
+      <section id="skills">
+        <p class="section__text_p1">What I Have To Offer</p>
+        <h1 class="title">Skills</h1>
+        <div class="skillrow">
+          <div class="skill-box col-lg-3 skills-container">
+            <i class="fa-solid fa-dna fa-2x icon"></i>
+            <h3>Labratory Skills</h3>
+            <p>Micropipetting, PCR, Gel Electrophoresis, DNA extraction, and Ecoplate Setup & Analysis</p>
+          </div>
+
+          <div class="skill-box col-lg-3 skills-container">
+            <i class="fa-regular fa-paper-plane fa-2x icon"></i>
+              <h3> Data & Technical Skills</h3>
+              <p>Excel, Graphing Figures, Data Organization, Google Sheets, Adobe Photoshop/Illustrator, HTML, CSS, Figma, Bootstrap, and Javascript</p>
+          </div>
+
+          <div class="skill-box col-lg-3 skills-container">
+            <i class="fa-solid fa-user-tie fa-2x icon"></i>              <h3>Professional Skills</h3>
+            <p>Communication, Public Speaking, Leadership, Time Management, Leadership, and Teamwork</p>
+          </div>
+
+          <div class="skill-box col-lg-3 skills-container">
+            <i class="fa-regular fa-comment fa-2x icon"></i>
+            <h3>Languages</h3>
+            <p>English (Speaking & Writing), Cantonese (Speaking), and Mandarin (Speaking)</p>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-down fa-3x icon2 arrow" onclick="location.href='#work'"></i>
+      </section>
+
+      <section id="work">
+        <p class="section__text_p1">View My Most Recent</p>
+        <h1 class="title">Work</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img class="project-img" src="images/project.png">
+                </div>
+                  <h2 class="experience-sub-title project-title">Research Project</h2>
+                  <p>In my Biology Labratory course, we did a group research project on how doxorubicin affects cell viability in breast cancer cells using MTT Assay.</p>
+                <div class="btn-container">
+                  <button class ="btn btn-color-2" onclick="window.open('./images/biology.pdf')">View</button>
+                </div>
+              </div>
+
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img class="project-img" src="images/dice.png">
+                </div>
+                  <h2 class="experience-sub-title project-title">Rolling Dice Game</h2>
+                  <p>In my Introduction to Computing course, I learned how to make a rolling dice game using HTML, CSS, Bootstrap, and Javscript.</p>
+                <div class="btn-container">
+                  <button class ="btn btn-color-2" onclick="window.open('./dice-lab/WongDiceLab6b.html')">View</button>
+                </div>
+              </div>
+
+              <div class="details-container color-container">
+                <div class="article-container">
+                  <img class="project-img" src="images/wedding.png">
+                </div>
+                  <h2 class="experience-sub-title project-title">Wedding Planner</h2>
+                  <p>In my Introduction to Computing course, I learned how to make a wedding planner wesite using HTML, CSS, Bootstrap, and Javascript</p>
+                <div class="btn-container">
+                  <button class ="btn btn-color-2" onclick="window.open('./wedding/WongWeddingLab6a.html')">View</button>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <i class="fa-solid fa-arrow-down fa-3x icon2 arrow" onclick="location.href='#contact'"></i>
+      </section>
+
+    <section id="contact">
+      <p class="section__text_p1">Trying To Get In Touch?</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <p class="contactemail">johndoe@gmail.com</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <nav class="footer-nav">
+        <div class="nav-link-container2">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item">                  <a href="#about" class="nav-link2">About</a>
+            </li>
+            <li class="navbar-item">
+            <a href="#experience" class="nav-link2">Experience</a>
+            </li>                
+            <li class="navbar-item">
+            <a href="#skills" class="nav-link2">Skills</a>
+            </li>
+            <li class="navbar-item">
+            <a href="#work" class="nav-link2">Work</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <p class="copyright">Copyright 2025 Kasey Wong</p>
+    </footer>
+
+    <!--JS-->
+    <script src="script.js" charset="utf-8"></script>  
+
+    <!--Bootstrap & JS-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
+  </body>
+</html>
